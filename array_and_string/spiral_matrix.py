@@ -1,4 +1,7 @@
-def spiral_matrix(mat):
+from typing import List
+
+
+def spiral_matrix(mat: List[List[int]]) -> List[int]:
     result = []
     # direction starts with right, can also be; down, left, up
     direction = "right"
