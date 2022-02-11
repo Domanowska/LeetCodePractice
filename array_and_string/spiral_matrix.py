@@ -36,12 +36,9 @@ def spiral_matrix(mat: List[List[int]]) -> List[int]:
         elif direction == "right":
             new_row = row
             new_col = col + 1
-        elif direction == "left":
+        else:   # The only thing direction can be is left
             new_row = row
             new_col = col - 1
-        else:
-            print(f"Direction {direction} is not valid")
-            break
         print("Next elem row:", new_row, "col:", new_col)
 
         # Is element out of bounds? If not we need to find next elem in spiral
