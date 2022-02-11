@@ -1,6 +1,6 @@
 import pytest
 
-from array_and_string.increment_digits import increment_digits
+from increment_digits import increment_digits
 
 
 @pytest.mark.parametrize(

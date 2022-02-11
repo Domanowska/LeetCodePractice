@@ -1,6 +1,6 @@
 import pytest
 
-from array_and_string.add_binary import add_binary
+from add_binary import add_binary
 
 
 @pytest.mark.parametrize(

@@ -1,6 +1,6 @@
 import pytest
 
-from array_and_string.diagonal_traverse import diagonal_traverse
+from diagonal_traverse import diagonal_traverse
 
 
 @pytest.mark.parametrize(

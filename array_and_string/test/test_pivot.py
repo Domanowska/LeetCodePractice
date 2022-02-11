@@ -1,6 +1,6 @@
 import pytest
 
-from array_and_string.pivot import pivot_index
+from pivot import pivot_index
 
 
 @pytest.mark.parametrize(
