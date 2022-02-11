@@ -1,6 +1,6 @@
 import pytest
 
-from spiral_matrix import spiral_matrix
+from array_and_string.spiral_matrix import spiral_matrix
 
 
 @pytest.mark.parametrize(

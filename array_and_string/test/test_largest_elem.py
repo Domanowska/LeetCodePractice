@@ -1,6 +1,6 @@
 import pytest
 
-from largest_elem import largest_elem
+from array_and_string.largest_elem import largest_elem
 
 
 @pytest.mark.parametrize(

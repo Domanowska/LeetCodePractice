@@ -1,6 +1,6 @@
 import pytest
 
-from pascals_triangle import pascals_triangle
+from array_and_string.pascals_triangle import pascals_triangle
 
 
 @pytest.mark.parametrize(

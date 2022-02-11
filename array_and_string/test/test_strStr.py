@@ -1,6 +1,6 @@
 import pytest
 
-from strStr import strStr
+from array_and_string.strStr import strStr
 
 
 @pytest.mark.parametrize(
