@@ -2,6 +2,7 @@ def longest_common_prefix(strs):
     # Easiest answer: smallest word is in all other words and we're done!
     prefix = min(strs, key=len)     # built in function = O(n)
     prefix_length = len(prefix)
+    print("Prefix:", prefix)
     for i in range(len(strs)):      # O(n)
         this_word = strs[i]
         print("Word:", this_word)
