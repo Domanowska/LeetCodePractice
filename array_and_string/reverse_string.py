@@ -1,4 +1,7 @@
-def reversed_string(input_string):
+from typing import List
+
+
+def reversed_string(input_string: List[str]) -> List[str]:
     # Pointers to keep track of which chars we're swapping
     start = 0
     end = len(input_string) - 1

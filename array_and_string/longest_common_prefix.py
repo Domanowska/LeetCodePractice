@@ -1,4 +1,7 @@
-def longest_common_prefix(strs):
+from typing import List
+
+
+def longest_common_prefix(strs: List[str]) -> str:
     # Easiest answer: smallest word is in all other words and we're done!
     prefix = min(strs, key=len)     # built in function = O(n)
     prefix_length = len(prefix)

@@ -1,6 +1,6 @@
 # Returns pointer to the first occurrence of needle in haystack
 # See: http://www.cplusplus.com/reference/cstring/strstr/
-def strStr(haystack, needle):
+def strStr(haystack: str, needle: str) -> int:
     # If needle is empty return 0
     if not needle:
         return 0

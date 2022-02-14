@@ -9,7 +9,10 @@
 # The tests are generated such that there is exactly one solution.
 # You may not use the same element twice.
 # Your solution must use only constant extra space.
-def two_sum(nums, target):
+from typing import List
+
+
+def two_sum(nums: List[int], target: int) -> List[int]:
     # Pointers for the two indexes
     i_1 = 0
     i_2 = len(nums) - 1

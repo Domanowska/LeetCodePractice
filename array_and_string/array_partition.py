@@ -2,7 +2,10 @@
 # group these integers into n pairs (a1, b1), (a2, b2), ..., (an, bn)
 # such that the sum of min(ai, bi) for all i is maximized.
 # Return the maximized sum.
-def array_partition(nums):
+from typing import List
+
+
+def array_partition(nums: List[int]) -> int:
     # To get an optimized max sum, and since we're taking the min,
     # we want to group numbers close together
     # Example = min(6, 6) = 6, min(6, 5) = 5

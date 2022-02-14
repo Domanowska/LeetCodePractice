@@ -1,4 +1,4 @@
-def add_binary(a, b):
+def add_binary(a: str, b: str) -> str:
     result = []
 
     # Make sure strings are the same length

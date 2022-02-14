@@ -1,4 +1,7 @@
-def increment_digits(digits):
+from typing import List
+
+
+def increment_digits(digits: List[int]) -> List[int]:
     # reversed_digits = list(reversed(digits))     # O(n)
     # for i, x in enumerate(reversed_digits):     # O(n)
     #     print(i, x)

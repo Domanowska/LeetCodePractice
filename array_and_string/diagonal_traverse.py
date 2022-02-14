@@ -34,7 +34,10 @@
 
 
 # ATTEMPT 1
-def diagonal_traverse(mat):
+from typing import List
+
+
+def diagonal_traverse(mat: List[List[int]]) -> List[int]:
     # Store resulting array
     diagonal = []
     # Starting element

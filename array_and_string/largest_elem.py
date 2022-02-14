@@ -1,4 +1,7 @@
-def largest_elem(nums):
+from typing import List
+
+
+def largest_elem(nums: List[int]) -> int:
     # Find largest number
     largest_index = 0
     largest = nums[0]
