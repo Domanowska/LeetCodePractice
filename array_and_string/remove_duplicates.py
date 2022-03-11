@@ -14,3 +14,17 @@ def remove_duplicates(nums: List[int]) -> int:
         next_val += 1
 
     return curr_val + 1
+
+# Alternate: Just pop the duplicates out
+# def remove_duplicates(nums: List[int]) -> int:
+#     i = 1
+#     curr_val = nums[0]
+#
+#     while i < len(nums):
+#         if curr_val == nums[i]:
+#             nums.pop(i)
+#         else:
+#             curr_val = nums[i]
+#             i += 1
+#
+#     return len(nums)
